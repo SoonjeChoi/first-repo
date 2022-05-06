@@ -1,6 +1,8 @@
 print('hello')
-for i in range(1, 10):
+for i in range(1, 20+1):
     if i %3 == 0:
         print('year')
+    elif i%5 == 0:
+        print('dream')
     else:
         print(i)
